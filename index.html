@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Album Cover -->
+        <div class="album-cover">
+            <img src="images/album-cover1.jpg" alt="Album Cover" id="albumImage">
+        </div>
+
+        <!-- Song Info -->
+        <div class="song-info">
+            <h1 id="songTitle">Judul Lagu</h1>
+            <h3 id="artistName">Nama Artis</h3>
+        </div>
+
+        <!-- Song Selection (Button untuk Memilih Lagu) -->
+        <div class="song-selection">
+            <button onclick="loadSong(songs[0])">Lagu 1</button>
+            <button onclick="loadSong(songs[1])">Lagu 2</button>
+            <button onclick="loadSong(songs[2])">Lagu 3</button>
+            <!-- Tambahkan tombol lagu lain di sini -->
+        </div>
+       
+
+        <!-- Lyrics with Scroll -->
+        <div class="lyrics" id="lyrics">
+            <p>Ini adalah lirik lagu yang akan ditampilkan di sini.</p>
+        </div>
+
+        <!-- Audio Player Controls -->
+        <div class="audio-controls">
+            <audio id="audioPlayer" src="audio/song1.mp3"></audio>
+            <audio id="audioPlayer" src="audio/song2.mp3"></audio>
+            <audio id="audioPlayer" src="audio/song3.mp3"></audio>
+            <button id="playPauseButton">Play</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>

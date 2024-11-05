@@ -1,0 +1,23 @@
+[
+    {
+        "title": "money trees",
+        "artist": "kendrick lamar",
+        "lyricsFile": "lyrics/song1.txt",
+        "albumCover": "images/album-cover1.jpg",
+        "audioSrc": "audio/song1.mp3"
+    },
+    {
+        "title": "becane",
+        "artist": "yame",
+        "lyricsFile": "lyrics/song2.txt",
+        "albumCover": "images/album-cover2.jpg",
+        "audioSrc": "audio/song2.mp3"
+    },
+    {
+        "title": "notion",
+        "artist": "The Rare Occasions",
+        "lyricsFile": "lyrics/song3.txt",
+        "albumCover": "images/album-cover3.jpg",
+        "audioSrc": "audio/song3.mp3"
+    }
+]
